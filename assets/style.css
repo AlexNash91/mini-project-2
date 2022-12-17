@@ -3,14 +3,16 @@
 }
 
 
-header h1 {
+h1 {
     color: var(--text-color);
 }
 main {
     
     
+    
 }
-main h2{
+
+h2{
     color: var(--text-color);
     
 }
@@ -21,4 +23,23 @@ main p{
 
 footer h3 {
     color: var(--text-color);
+}
+
+.title-card{
+    height: 5px;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline
+}
+
+.text-box{
+    height: 100px;
+    width: 25%;
+    margin: 50px;
+    border: 5px solid black;
+}
+
+footer{
+    text-align: center;
 }
